@@ -1,59 +1,57 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d3a,50:123b6d,100:22d3ee&height=230&section=header&text=Flood%20Probability%20Prediction&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Machine-learning%20regression%20on%2050%2C000%20regions%20and%2020%20flood-risk%20factors&descSize=17&descAlignY=56&descAlign=50" alt="Flood Probability Prediction" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=260&section=header&text=Flood%20Probability%20Prediction&fontSize=48&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=Machine%20Learning%20%E2%80%A2%2050%2C000%20regions%20%E2%80%A2%2020%20risk%20factors%20%E2%80%A2%204%20models&descSize=17&descAlignY=58&descAlign=50" alt="Flood Probability Prediction" width="100%"/>
 
-<a href="https://github.com/sabikswanan/Flood-Probability-Prediction-Using-ML"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Predicting+flood+probability+from+20+risk+factors;Training+SVR%2C+Decision+Tree%2C+Random+Forest+%26+KNN;KNN+wins%3A+R%C2%B2+%3D+0.778%2C+RMSE+%3D+0.024" alt="Predicting flood probability from 20 risk factors · KNN wins with R² = 0.778"/></a>
+<a href="https://github.com/sabikswanan/Flood-Probability-Prediction-Using-ML"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=780&lines=%3E+Predicting+flood+probability+from+20+risk+factors;%3E+Benchmarking+SVR%2C+Decision+Tree%2C+Random+Forest+%26+KNN;%3E+Best+model%3A+KNN+%7C+R%C2%B2+%3D+0.778+%7C+RMSE+%3D+0.024" alt="Predicting flood probability from 20 risk factors · Best model KNN, R² 0.778"/></a>
 
 <br/>
 
-<a href="https://colab.research.google.com/github/sabikswanan/Flood-Probability-Prediction-Using-ML/blob/main/Code%20-%20Flood%20Probability%20Prediction%20using%20ML.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="28"/></a>
-<a href="https://www.kaggle.com/datasets/naiyakhalid/flood-prediction-dataset"><img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle dataset"/></a>
-<img src="https://img.shields.io/badge/Python-3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/pandas-Data-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/>
-<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
+<img src="https://img.shields.io/badge/REGIONS-50%2C000-0052D4?style=for-the-badge&labelColor=0B1220" alt="50,000 regions"/>
+<img src="https://img.shields.io/badge/RISK%20FACTORS-20-4364F7?style=for-the-badge&labelColor=0B1220" alt="20 risk factors"/>
+<img src="https://img.shields.io/badge/MODELS-4-1E90FF?style=for-the-badge&labelColor=0B1220" alt="4 models"/>
+<img src="https://img.shields.io/badge/BEST%20R%C2%B2-0.778%20%C2%B7%20KNN-00B4DB?style=for-the-badge&labelColor=0B1220" alt="Best R² 0.778 with KNN"/>
+
+<a href="https://colab.research.google.com/github/sabikswanan/Flood-Probability-Prediction-Using-ML/blob/main/Code%20-%20Flood%20Probability%20Prediction%20using%20ML.ipynb"><img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white&labelColor=0B1220" alt="Open in Colab"/></a>
+<a href="https://www.kaggle.com/datasets/naiyakhalid/flood-prediction-dataset"><img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0B1220" alt="Kaggle dataset"/></a>
+<img src="https://img.shields.io/badge/Python-3-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0B1220" alt="Python"/>
+<img src="https://img.shields.io/badge/scikit--learn-ML-0083B0?style=for-the-badge&logo=scikitlearn&logoColor=white&labelColor=0B1220" alt="scikit-learn"/>
+<img src="https://img.shields.io/badge/pandas-NumPy-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=0B1220" alt="pandas and NumPy"/>
 
 <br/><br/>
 
-**[Overview](#overview)** &nbsp;·&nbsp;
-**[Dataset](#dataset)** &nbsp;·&nbsp;
-**[Pipeline](#pipeline)** &nbsp;·&nbsp;
-**[Results](#results)** &nbsp;·&nbsp;
-**[Insights](#key-insights)** &nbsp;·&nbsp;
-**[Run it](#run-it-yourself)** &nbsp;·&nbsp;
+**[Overview](#overview)** &nbsp;|&nbsp;
+**[Dataset](#dataset)** &nbsp;|&nbsp;
+**[Pipeline](#pipeline)** &nbsp;|&nbsp;
+**[Results](#results)** &nbsp;|&nbsp;
+**[Insights](#insights)** &nbsp;|&nbsp;
+**[Getting Started](#getting-started)** &nbsp;|&nbsp;
 **[Author](#author)**
-
-<br/>
-
-<table>
-  <tr>
-    <td align="center" width="25%"><h2>50,000</h2><sub>regions in the dataset</sub></td>
-    <td align="center" width="25%"><h2>20</h2><sub>flood-risk factors</sub></td>
-    <td align="center" width="25%"><h2>4</h2><sub>regression models</sub></td>
-    <td align="center" width="25%"><h2>0.778</h2><sub>best R² (KNN)</sub></td>
-  </tr>
-</table>
 
 </div>
 
----
+<br/>
 
-## Overview
+<a name="overview"></a>
 
-Floods are among the most destructive natural disasters, and their risk depends on a mix of climate,
-land use, infrastructure and governance. This project asks a simple question:
+## 🌊 Overview
 
-> **Given 20 risk factors for a region, how well can machine learning predict its flood probability?**
+Floods are among the most destructive natural disasters, and their risk depends on a combination of
+climate, land use, infrastructure and governance factors. This project answers one question:
 
-It was built for **CSE437 — Data Science** at **BRAC University**. The notebook explores the data,
-prepares it, trains **four regression models** and compares them on **R², MAE and RMSE** to find the
-best-performing algorithm.
+> [!NOTE]
+> **Given 20 risk factors for a region, how accurately can machine learning predict its flood probability?**
 
----
+Built for **CSE437 — Data Science** at **BRAC University**, the notebook covers the full workflow:
+exploratory analysis, preprocessing, training **four regression models**, and benchmarking them on
+**R², MAE and RMSE** to select the best-performing algorithm.
 
-## Dataset
+<br/>
 
-| | |
+<a name="dataset"></a>
+
+## 📦 Dataset
+
+| Property | Value |
 |---|---|
 | **Source** | [Flood Prediction Dataset — Kaggle](https://www.kaggle.com/datasets/naiyakhalid/flood-prediction-dataset) |
 | **Rows** | 50,000 regions |
@@ -63,10 +61,10 @@ best-performing algorithm.
 | **Duplicate rows** | None |
 
 <details>
-<summary><b>Show all 20 risk factors, grouped by theme</b></summary>
+<summary><b>View all 20 risk factors, grouped by domain</b></summary>
 <br/>
 
-| Climate & hydrology | Land use | Infrastructure | Governance & society |
+| Climate & Hydrology | Land Use | Infrastructure | Governance & Society |
 |---|---|---|---|
 | MonsoonIntensity | Deforestation | DamsQuality | IneffectiveDisasterPreparedness |
 | ClimateChange | Urbanization | DrainageSystems | InadequatePlanning |
@@ -76,49 +74,62 @@ best-performing algorithm.
 | Landslides | | | |
 | WetlandLoss | | | |
 
-<sub>The grouping is for readability only; the models use all 20 features as they are.</sub>
+<sub>Grouping is for readability only; all 20 features are used as model inputs.</sub>
 
 </details>
 
----
+<br/>
 
-## Pipeline
+<a name="pipeline"></a>
+
+## ⚙️ Pipeline
 
 ```mermaid
 flowchart LR
-    A[("Kaggle CSV<br/>50,000 × 21")] --> B["Exploration<br/>nulls · duplicates<br/>correlation"]
-    B --> C["Train / test split<br/>80% / 20%"]
-    C --> D["StandardScaler<br/>fit on train only"]
-    D --> E{"4 regressors"}
-    E --> F1["SVR"]
-    E --> F2["Decision Tree"]
-    E --> F3["Random Forest"]
-    E --> F4["KNN"]
-    F1 & F2 & F3 & F4 --> G["Evaluate<br/>R² · MAE · RMSE"]
-    G --> H["Best model<br/>KNN · R² 0.778"]
+    A[("Kaggle CSV<br/>50,000 × 21")] --> B(["Exploratory<br/>Analysis"])
+    B --> C(["Train / Test Split<br/>80 : 20"])
+    C --> D(["StandardScaler<br/>fit on train only"])
+    D --> E{{"Model<br/>Benchmark"}}
+    E --> F1(["SVR"])
+    E --> F2(["Decision Tree"])
+    E --> F3(["Random Forest"])
+    E --> F4(["KNN"])
+    F1 & F2 & F3 & F4 --> G(["Evaluation<br/>R² · MAE · RMSE"])
+    G --> H(["🏆 KNN<br/>R² 0.778"])
 
-    classDef data fill:#0b1d3a,stroke:#22d3ee,color:#ffffff
-    classDef step fill:#123b6d,stroke:#3b82f6,color:#ffffff
-    classDef model fill:#1e293b,stroke:#a78bfa,color:#ffffff
-    classDef best fill:#fbbf24,stroke:#b45309,color:#0b1d3a
+    classDef data fill:#0B1220,stroke:#36BCF7,stroke-width:2px,color:#E6F4FF
+    classDef s1 fill:#0052D4,stroke:#0052D4,color:#FFFFFF
+    classDef s2 fill:#4364F7,stroke:#4364F7,color:#FFFFFF
+    classDef bench fill:#1E90FF,stroke:#1E90FF,color:#FFFFFF
+    classDef model fill:#E6F4FF,stroke:#6FB1FC,stroke-width:1.5px,color:#0B1220
+    classDef eval fill:#0083B0,stroke:#0083B0,color:#FFFFFF
+    classDef best fill:#00D2FF,stroke:#0052D4,stroke-width:2px,color:#0B1220
     class A data
-    class B,C,D,G step
-    class E,F1,F2,F3,F4 model
+    class B,C s1
+    class D s2
+    class E bench
+    class F1,F2,F3,F4 model
+    class G eval
     class H best
+    linkStyle default stroke:#36BCF7,stroke-width:2px
 ```
 
-1. **Exploration:** shape, data types, missing values, duplicates, and a full correlation matrix.
-2. **Split:** 40,000 rows for training and 10,000 for testing (`random_state = 1`).
-3. **Scaling:** `StandardScaler` fitted on the training set only, so no test information leaks in.
-4. **Modelling:** Support Vector Regression, Decision Tree, Random Forest and K-Nearest Neighbours.
-5. **Evaluation:** R², Mean Absolute Error and Root Mean Squared Error on the held-out test set.
+| Stage | Details |
+|---|---|
+| **Exploratory analysis** | Shape, data types, missing values, duplicates and a full correlation matrix |
+| **Split** | 40,000 training rows and 10,000 test rows (`random_state = 1`) |
+| **Scaling** | `StandardScaler` fitted on the training set only to prevent data leakage |
+| **Modelling** | Support Vector Regression, Decision Tree, Random Forest, K-Nearest Neighbours |
+| **Evaluation** | R², Mean Absolute Error and Root Mean Squared Error on the held-out test set |
 
----
+<br/>
 
-## Results
+<a name="results"></a>
+
+## 🏆 Results
 
 ```mermaid
-%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#fbbf24"}}}}%%
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#1E90FF", "titleColor": "#0083B0"}}}}%%
 xychart-beta
     title "Test-set R² by model (higher is better)"
     x-axis ["KNN", "Random Forest", "SVR", "Decision Tree"]
@@ -133,70 +144,89 @@ xychart-beta
 | 🥉 | Support Vector Regression | 0.7090 | 0.0207 | 0.0272 |
 | 4 | Decision Tree | 0.1346 | 0.0372 | 0.0469 |
 
-**KNN explains about 78% of the variation in flood probability**, with a typical error of under
-two percentage points.
+> [!TIP]
+> **KNN explains ~78% of the variance in flood probability**, with a mean absolute error of under
+> two percentage points on 10,000 unseen regions.
 
 <details>
-<summary><b>How does each model work? (one-line explanations)</b></summary>
+<summary><b>How each model works</b></summary>
 <br/>
 
-| Model | Idea in one line |
+| Model | Approach |
 |---|---|
-| **KNN** | Predicts a region's flood probability as the average of the 5 most similar regions. |
-| **Random Forest** | Averages 100 decision trees, each trained on a random sample of the data. |
-| **SVR** | Fits a smooth function that keeps most predictions within a small error margin. |
-| **Decision Tree** | Splits the data with yes/no questions until each leaf gives a prediction. |
+| **K-Nearest Neighbours** | Predicts a region's flood probability as the average of its 5 most similar regions. |
+| **Random Forest** | Averages 100 decision trees, each trained on a bootstrap sample of the data. |
+| **Support Vector Regression** | Fits a smooth function that keeps most predictions within a small error margin. |
+| **Decision Tree** | Recursively splits the data on feature thresholds until each leaf yields a prediction. |
 
 </details>
 
----
-
-## What drives flood risk?
+### 📈 Feature correlation with the target
 
 ```mermaid
-%%{init: {"xyChart": {"height": 620}, "themeVariables": {"xyChart": {"plotColorPalette": "#22d3ee"}}}}%%
+%%{init: {"xyChart": {"height": 620}, "themeVariables": {"xyChart": {"plotColorPalette": "#00B4DB", "titleColor": "#0083B0"}}}}%%
 xychart-beta horizontal
-    title "Correlation of each factor with FloodProbability"
+    title "Pearson correlation with FloodProbability"
     x-axis ["Infrastructure", "Topography", "River mgmt", "Watersheds", "Dams", "Population", "Siltation", "Preparedness", "Political", "Monsoon", "Wetland loss", "Planning", "Landslides", "Agriculture", "Climate", "Urbanization", "Deforestation", "Encroachment", "Drainage", "Coastal"]
     y-axis "Pearson r" 0 --> 0.25
     bar [0.229, 0.229, 0.229, 0.228, 0.227, 0.227, 0.227, 0.225, 0.225, 0.224, 0.224, 0.223, 0.223, 0.222, 0.221, 0.221, 0.220, 0.218, 0.218, 0.215]
 ```
 
-Every factor correlates with flood probability at almost exactly the same strength (r ≈ 0.22), while
-the factors are almost uncorrelated with each other. **No single factor dominates.** Flood risk here
-builds up from many small contributions, so a model has to look at all 20 together.
+All 20 factors correlate with flood probability at nearly identical strength (r ≈ 0.22), while being
+almost uncorrelated with one another. **No single factor dominates** — risk accumulates from many
+small contributions, so the model must consider all 20 together.
 
----
+<br/>
 
-## Key insights
+<a name="insights"></a>
 
-- **KNN came out on top (R² 0.778).** Regions with similar risk profiles tend to have similar flood
-  probabilities, which is exactly what a neighbour-based model exploits.
-- **Ensembles beat single trees by a wide margin.** An unrestricted Decision Tree memorises noise in
-  the training data (R² 0.135), while averaging 100 trees in a Random Forest lifts R² to 0.732.
-- **Predictions lean towards the average.** In the actual-vs-predicted plot, KNN slightly
-  overestimates low-risk regions and underestimates high-risk ones, because averaging neighbours pulls
-  extreme values towards the middle.
-- **The signal is spread evenly.** All 20 features are about equally correlated with the target and
-  barely overlap with each other, so the models use every factor as input.
+## 💡 Key Insights
 
-> 📊 The full set of plots (correlation heatmap, actual-vs-predicted scatter and metric comparisons)
-> is in the [notebook](Code%20-%20Flood%20Probability%20Prediction%20using%20ML.ipynb).
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎯 KNN performs best</h4>
+      R² <b>0.778</b>. Regions with similar risk profiles have similar flood probabilities, which a
+      neighbour-based model exploits directly.
+    </td>
+    <td width="50%" valign="top">
+      <h4>🌲 Ensembles beat single trees</h4>
+      An unrestricted Decision Tree overfits (R² <b>0.135</b>); averaging 100 trees in a Random
+      Forest raises R² to <b>0.732</b>.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📉 Predictions regress to the mean</h4>
+      KNN slightly overestimates low-risk regions and underestimates high-risk ones, as neighbour
+      averaging pulls extremes toward the centre.
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧩 Signal is evenly distributed</h4>
+      Every feature is roughly equally correlated with the target and largely independent of the
+      others, so all 20 are kept as inputs.
+    </td>
+  </tr>
+</table>
 
----
+> [!NOTE]
+> Full visualisations — correlation heatmap, actual-vs-predicted scatter and metric comparisons — are
+> available in the [notebook](Code%20-%20Flood%20Probability%20Prediction%20using%20ML.ipynb).
 
-## Run it yourself
+<br/>
 
-### Option 1 — Google Colab (no setup)
+<a name="getting-started"></a>
 
-<a href="https://colab.research.google.com/github/sabikswanan/Flood-Probability-Prediction-Using-ML/blob/main/Code%20-%20Flood%20Probability%20Prediction%20using%20ML.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="28"/></a>
+## 🚀 Getting Started
 
-1. Click the badge above to open the notebook.
+**Option 1 — Google Colab (no setup)**
+
+1. Open the notebook with the **Open in Colab** badge at the top.
 2. Download the CSV from [Kaggle](https://www.kaggle.com/datasets/naiyakhalid/flood-prediction-dataset).
-3. Upload it to Colab's file panel and name it `Dataset - Flood Prediction.csv`.
-4. Choose **Runtime → Run all**.
+3. Upload it to Colab's file panel as `Dataset - Flood Prediction.csv`.
+4. Select **Runtime → Run all**.
 
-### Option 2 — Run locally
+**Option 2 — Local environment**
 
 ```bash
 git clone https://github.com/sabikswanan/Flood-Probability-Prediction-Using-ML.git
@@ -206,10 +236,10 @@ jupyter notebook
 ```
 
 <details>
-<summary><b>Running locally? Change one line first</b></summary>
+<summary><b>Note for local runs</b></summary>
 <br/>
 
-The notebook reads the dataset from Colab's `/content/` folder. Put the CSV next to the notebook
+The notebook reads the dataset from Colab's `/content/` directory. Place the CSV next to the notebook
 and update the path in the first data cell:
 
 ```python
@@ -218,36 +248,38 @@ df = pd.read_csv("Dataset - Flood Prediction.csv")
 
 </details>
 
----
+<br/>
 
-## Future work
+## 🗺️ Roadmap
 
-- [ ] Try **Linear and Ridge Regression**, since every feature contributes almost equally to the target
-- [ ] Tune hyperparameters (number of neighbours for KNN, tree depth, SVR kernel) with **k-fold cross-validation**
+- [ ] Benchmark **Linear and Ridge Regression**, given the near-additive structure of the features
+- [ ] Hyperparameter tuning (k for KNN, tree depth, SVR kernel) with **k-fold cross-validation**
 - [ ] Add **gradient boosting** models such as XGBoost
-- [ ] Explain individual predictions with **SHAP values**
-- [ ] Deploy a small web app where users enter risk scores and get a flood probability
-
----
-
-## Author
-
-<div align="center">
-
-**Sabik Swanan**<br/>
-B.Sc. in Computer Science · BRAC University<br/>
-<sub>CSE437 — Data Science</sub>
+- [ ] Model explainability with **SHAP**
+- [ ] Deploy as a lightweight web service for interactive flood-risk scoring
 
 <br/>
 
-<a href="https://github.com/sabikswanan"><img src="https://img.shields.io/badge/GitHub-sabikswanan-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/sabikswanan"><img src="https://img.shields.io/badge/LinkedIn-sabikswanan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:sabikswanan@gmail.com"><img src="https://img.shields.io/badge/Email-sabikswanan@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a name="author"></a>
+
+## 👤 Author
+
+<div align="center">
+
+### Sabik Swanan
+
+B.Sc. in Computer Science · BRAC University
+
+<br/>
+
+<a href="https://github.com/sabikswanan"><img src="https://img.shields.io/badge/GitHub-sabikswanan-0052D4?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/sabikswanan"><img src="https://img.shields.io/badge/LinkedIn-sabikswanan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B1220" alt="LinkedIn"/></a>
+<a href="mailto:sabikswanan@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-00B4DB?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1220" alt="Email"/></a>
 
 <br/><br/>
 
-<sub>If this project helped you, consider giving it a ⭐</sub>
+<sub>⭐ Star this repo if you found it useful</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:123b6d,100:0b1d3a&height=120&section=footer" alt="" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6FB1FC,50:4364F7,100:0052D4&height=130&section=footer" alt="" width="100%"/>
 
 </div>
