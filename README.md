@@ -274,7 +274,7 @@ B.Sc. in Computer Science · BRAC University
 
 <a href="https://github.com/sabikswanan"><img src="https://img.shields.io/badge/GitHub-sabikswanan-0052D4?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1220" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/sabikswanan"><img src="https://img.shields.io/badge/LinkedIn-sabikswanan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B1220" alt="LinkedIn"/></a>
-<a href="mailto:sabikswanan@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-00B4DB?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1220" alt="Email"/></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=sabikswanan@gmail.com"><img src="https://img.shields.io/badge/Email-sabikswanan%40gmail.com-00B4DB?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1220" alt="Email"/></a>
 
 <br/><br/>
 
