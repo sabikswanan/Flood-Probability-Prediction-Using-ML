@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Flood Probability Prediction — animated banner" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1d3a,50:123b6d,100:22d3ee&height=230&section=header&text=Flood%20Probability%20Prediction&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Machine-learning%20regression%20on%2050%2C000%20regions%20and%2020%20flood-risk%20factors&descSize=17&descAlignY=56&descAlign=50" alt="Flood Probability Prediction" width="100%"/>
 
-<img src="assets/typing.svg" alt="Predicting flood probability from 20 risk factors · KNN wins with R² = 0.778" width="80%"/>
+<a href="https://github.com/sabikswanan/Flood-Probability-Prediction-Using-ML"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Predicting+flood+probability+from+20+risk+factors;Training+SVR%2C+Decision+Tree%2C+Random+Forest+%26+KNN;KNN+wins%3A+R%C2%B2+%3D+0.778%2C+RMSE+%3D+0.024" alt="Predicting flood probability from 20 risk factors · KNN wins with R² = 0.778"/></a>
 
 <br/>
 
@@ -25,7 +25,14 @@
 
 <br/>
 
-<img src="assets/stats.svg" alt="50,000 regions · 20 flood-risk factors · 4 regression models · best R² 0.778" width="100%"/>
+<table>
+  <tr>
+    <td align="center" width="25%"><h2>50,000</h2><sub>regions in the dataset</sub></td>
+    <td align="center" width="25%"><h2>20</h2><sub>flood-risk factors</sub></td>
+    <td align="center" width="25%"><h2>4</h2><sub>regression models</sub></td>
+    <td align="center" width="25%"><h2>0.778</h2><sub>best R² (KNN)</sub></td>
+  </tr>
+</table>
 
 </div>
 
@@ -110,11 +117,14 @@ flowchart LR
 
 ## Results
 
-<div align="center">
-<img src="assets/leaderboard.svg" alt="Model leaderboard: KNN 0.778, Random Forest 0.732, SVR 0.709, Decision Tree 0.135" width="100%"/>
-</div>
-
-<br/>
+```mermaid
+%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#fbbf24"}}}}%%
+xychart-beta
+    title "Test-set R² by model (higher is better)"
+    x-axis ["KNN", "Random Forest", "SVR", "Decision Tree"]
+    y-axis "R² score" 0 --> 1
+    bar [0.778, 0.732, 0.709, 0.135]
+```
 
 | Rank | Model | R² ↑ | MAE ↓ | RMSE ↓ |
 |:---:|---|:---:|:---:|:---:|
@@ -143,9 +153,14 @@ two percentage points.
 
 ## What drives flood risk?
 
-<div align="center">
-<img src="assets/correlations.svg" alt="Correlation of each of the 20 factors with FloodProbability, all between 0.215 and 0.229" width="100%"/>
-</div>
+```mermaid
+%%{init: {"xyChart": {"height": 620}, "themeVariables": {"xyChart": {"plotColorPalette": "#22d3ee"}}}}%%
+xychart-beta horizontal
+    title "Correlation of each factor with FloodProbability"
+    x-axis ["Infrastructure", "Topography", "River mgmt", "Watersheds", "Dams", "Population", "Siltation", "Preparedness", "Political", "Monsoon", "Wetland loss", "Planning", "Landslides", "Agriculture", "Climate", "Urbanization", "Deforestation", "Encroachment", "Drainage", "Coastal"]
+    y-axis "Pearson r" 0 --> 0.25
+    bar [0.229, 0.229, 0.229, 0.228, 0.227, 0.227, 0.227, 0.225, 0.225, 0.224, 0.224, 0.223, 0.223, 0.222, 0.221, 0.221, 0.220, 0.218, 0.218, 0.215]
+```
 
 Every factor correlates with flood probability at almost exactly the same strength (r ≈ 0.22), while
 the factors are almost uncorrelated with each other. **No single factor dominates.** Flood risk here
@@ -165,29 +180,8 @@ builds up from many small contributions, so a model has to look at all 20 togeth
 - **The signal is spread evenly.** All 20 features are about equally correlated with the target and
   barely overlap with each other, so the models use every factor as input.
 
----
-
-## Visual gallery
-
-<details open>
-<summary><b>Plots from the notebook (click to collapse)</b></summary>
-<br/>
-
-<table>
-  <tr>
-    <td align="center"><img src="assets/plots/actual-vs-predicted-knn.png" alt="Actual vs predicted flood probability for KNN" width="100%"/><br/><sub><b>Actual vs. predicted (KNN)</b></sub></td>
-    <td align="center"><img src="assets/plots/metrics-comparison.png" alt="R², MAE and RMSE for all four models" width="100%"/><br/><sub><b>Metric comparison</b></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/plots/model-r2.png" alt="R² score per model" width="100%"/><br/><sub><b>R² per model</b></sub></td>
-    <td align="center"><img src="assets/plots/feature-correlation.png" alt="Correlation of each feature with FloodProbability" width="100%"/><br/><sub><b>Feature correlation with target</b></sub></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="assets/plots/correlation-heatmap.png" alt="Correlation heatmap of all features" width="60%"/><br/><sub><b>Correlation heatmap — features are nearly independent of one another</b></sub></td>
-  </tr>
-</table>
-
-</details>
+> 📊 The full set of plots (correlation heatmap, actual-vs-predicted scatter and metric comparisons)
+> is in the [notebook](Code%20-%20Flood%20Probability%20Prediction%20using%20ML.ipynb).
 
 ---
 
@@ -226,19 +220,6 @@ df = pd.read_csv("Dataset - Flood Prediction.csv")
 
 ---
 
-## Project structure
-
-```text
-Flood-Probability-Prediction-Using-ML/
-├── Code - Flood Probability Prediction using ML.ipynb   # full analysis and models
-├── README.md
-└── assets/
-    ├── *.svg          # animated graphics used in this README
-    └── plots/         # figures exported from the notebook
-```
-
----
-
 ## Future work
 
 - [ ] Try **Linear and Ridge Regression**, since every feature contributes almost equally to the target
@@ -267,6 +248,6 @@ B.Sc. in Computer Science · BRAC University<br/>
 
 <sub>If this project helped you, consider giving it a ⭐</sub>
 
-<img src="assets/footer.svg" alt="" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:123b6d,100:0b1d3a&height=120&section=footer" alt="" width="100%"/>
 
 </div>
